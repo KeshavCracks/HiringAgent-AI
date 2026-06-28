@@ -650,7 +650,7 @@ export default function HiringAgentApp() {
                   <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center gap-2">
                       <Terminal className="w-4 h-4 text-primary" />
-                      <span className="text-xs uppercase font-bold tracking-widest text-zinc-500 font-mono">Stream: Llama-3-70b-8192</span>
+                      <span className="text-xs uppercase font-bold tracking-widest text-zinc-500 font-mono">Stream: Llama-3.3-70B</span>
                     </div>
                     {isEvaluating && (
                       <span className="flex items-center gap-1 text-[10px] text-primary animate-pulse font-mono font-bold uppercase">

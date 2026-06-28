@@ -203,7 +203,7 @@ Be direct, highly professional, and granular. Do not use generic fluffy sentence
                 from groq import AsyncGroq
                 client = AsyncGroq(api_key=api_key)
                 stream = await client.chat.completions.create(
-                    model="llama3-70b-8192",
+                    model="llama-3.3-70b-versatile",
                     messages=[
                         {"role": "system", "content": system_prompt},
                         {"role": "user", "content": prompt}
