@@ -48,7 +48,9 @@ export default function HiringAgentApp() {
   const [file, setFile] = useState<File | null>(null);
   const [jobDescription, setJobDescription] = useState("");
   const [githubToken, setGithubToken] = useState("");
-  const [backendUrl, setBackendUrl] = useState("http://localhost:8000");
+  const [backendUrl, setBackendUrl] = useState(
+    process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:8000"
+  );
 
   // App States
   const [isEvaluating, setIsEvaluating] = useState(false);
